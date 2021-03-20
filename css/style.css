@@ -1,0 +1,231 @@
+body{
+	background: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+header{
+	background: white; 
+	padding-top: 15px;
+	padding-bottom: 10px;
+	position: fixed;
+	width: 100%;
+	z-index: 34242;
+}
+
+.logo{
+	width: 70px;
+}
+
+.botonera{
+	list-style-type: none;
+}
+
+.botonera li{
+	display: inline-block;
+	margin-left: 8px;
+	font-weight: 700;
+	font-size: 20px;
+	padding-top: 15px;
+}
+
+.botonera li a{
+	color: #A136C2;
+	text-decoration: none;
+}
+
+.botonera li a:hover{
+	color: #E079FF;
+	text-decoration: none;
+	font-style: italic;
+}
+
+.principal{
+	background: blue;
+	height: 100vh;
+	background: url(../imagenes/perroygato.jpg)no-repeat center center fixed; 
+	opacity:0.9;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.banner{
+	text-align: center;
+	padding-top: 100px;
+}
+
+.vertical-centered-text{
+	display: flex;
+	-ms-display: flex;
+	/*Alineacion Vertical*/
+	align-items: center;
+	/*Alineacion Horizontal*/
+	justify-content: center;
+}
+
+.banner h1 {
+	font-weight: bolder;
+	font-size: 70px;
+	color: #A136C2;
+	position: relative;
+}
+
+.banner h4{
+	font-weight: bolder; 
+	font-size: 30px;
+	padding-top: 20px;
+	color: white;
+	position: relative;
+}
+
+#home{
+	font-style: bold;
+}
+
+.purple{
+	border: 2px solid black; 
+	background: #F1CEFC;
+	color: black;
+	font-weight: bolder;
+}
+
+.purple:hover{
+	border: 2px solid black; 
+	background: white;
+	color: #A136C2;
+	font-weight: bolder;
+}
+
+.nosotros{
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+#imagen-nosotros{
+	width: 100%;
+	padding-top: 140px;
+}
+
+.container h1{
+	font-weight: bolder;
+	font-size: 35px;
+	color: black;
+	position: relative;
+}
+
+.container h4{
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+	position: relative;
+}
+
+.listaserv li{
+	list-style-type: none;
+	font-weight: bold;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.about{
+	padding-top: 80px;
+	padding-left: 40px;
+	padding-bottom: 50px;
+}
+
+.servicios{
+	background: #A136C2;
+	width: 100%;
+	padding-top: 150px;
+	padding-bottom: 50px;
+	padding-left: 40px;
+	padding-right: 40px;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	-o-background-size: cover;
+	background-size: cover;
+}
+
+.tituloservicios h1{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 40px;
+	padding-bottom: 20px;
+}
+
+.primerafilafotos img{
+	width: 70%;
+	align-content: center;
+	padding-bottom: 10px;
+	padding-left: 50px;
+}
+
+.servicios h1 {
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.servicios h4{
+	font-weight: bolder;
+	text-align: center;
+}
+
+.formulario{
+	padding-left: 100px;
+	padding-right: 50px;
+}
+
+.contact-form{
+	background: #A136C2;
+	border: 4px	solid black;
+	border-radius: 8px;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+.contact-form h1{
+	font-size: 40px;
+	text-align: center;
+	font-weight: bolder;
+	color: white;
+	padding-top: 10px;
+}
+
+.contact-form h4{
+	font-weight: bolder;
+	font-size: 15px;
+	text-align: center;
+	color: white;
+}
+
+.map-form{
+	background: white;
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 30px;
+}
+
+footer{
+	background: #7E7C7E;
+	padding-top: 20px;
+	height: 12vh;
+}
+
+.social h6{
+	font-weight: bolder;
+	font-size: 20px;
+	padding-top: 6px;
+}
+
+.col-md-2 img{
+	align-items: center;
+	height: 6vh;
+}
+
+
+
+
+
